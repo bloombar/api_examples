@@ -1,0 +1,25 @@
+.clear {
+	clear: both;
+}
+
+.container {
+	width: 410px;
+	margin:  0 auto;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+	width: 10px;
+	margin: 10px;
+}
+
+p.results_heading {
+	font-style: italic;
+}

@@ -1,0 +1,9 @@
+#Options +FollowSymlinks #not necessary if entire server is set up to do this already
+
+RewriteEngine on
+
+RewriteRule ^get/all$ /~ab1258/api_examples/custom_api/ [NC]
+
+RewriteRule ^get/letter/(.)$ /~ab1258/api_examples/custom_api/?letter=$1 [NC]
+
+#RewriteRule ^(.*)\.htm$ /~ab1258/api/$1.php [R, NC] #R means do a redirect, not a rewrite
